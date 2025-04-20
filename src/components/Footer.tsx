@@ -36,7 +36,6 @@ const Footer = () => {
             <ul className="space-y-3">
               <li><Link to="/" className="text-muted-foreground hover:text-primary transition-colors">Home</Link></li>
               <li><a href="#community" className="text-muted-foreground hover:text-primary transition-colors">Community</a></li>
-              <li><a href="#merch" className="text-muted-foreground hover:text-primary transition-colors">Merch</a></li>
               <li><a href="#about" className="text-muted-foreground hover:text-primary transition-colors">About</a></li>
             </ul>
           </div>
@@ -51,10 +50,8 @@ const Footer = () => {
         </div>
         
         <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-muted-foreground">© 2023 Flixify. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">© 2025 Flixify. All rights reserved.</p>
           <div className="flex space-x-8">
-            <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">Privacy Policy</a>
-            <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">Terms of Service</a>
           </div>
         </div>
       </div>
