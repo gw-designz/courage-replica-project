@@ -4,10 +4,8 @@ import SocialCard from "@/components/SocialCard";
 import StatCard from "@/components/StatCard";
 import { Button } from "@/components/ui/button";
 import { Twitch, Youtube, Twitter, Instagram, Users, Eye, Heart, Trophy, ArrowRight, ShoppingBag } from "lucide-react";
-
 const Index = () => {
-  return (
-    <div className="flex flex-col min-h-screen">
+  return <div className="flex flex-col min-h-screen">
       <Header />
       
       <main className="flex-grow pt-24">
@@ -42,49 +40,13 @@ const Index = () => {
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <SocialCard
-                icon={<Twitch className="h-8 w-8" />}
-                title="Twitch"
-                description="Live streams multiple times a week. Gaming, reactions, and more."
-                stats="2+"
-                statsLabel="Followers"
-                linkUrl="https://www.twitch.tv/ttvflixify"
-                linkText="Follow on Twitch"
-                bgColor="bg-purple-600"
-              />
+              <SocialCard icon={<Twitch className="h-8 w-8" />} title="Twitch" description="Live streams multiple times a week. Gaming, reactions, and more." stats="2+" statsLabel="Followers" linkUrl="https://www.twitch.tv/ttvflixify" linkText="Follow on Twitch" bgColor="bg-purple-600" />
               
-              <SocialCard
-                icon={<Youtube className="h-8 w-8" />}
-                title="YouTube"
-                description="Daily uploads of stream highlights, gameplay, and original content."
-                stats="58+"
-                statsLabel="Subscribers"
-                linkUrl="https://www.youtube.com/@ytflixify"
-                linkText="Subscribe on YouTube"
-                bgColor="bg-red-600"
-              />
+              <SocialCard icon={<Youtube className="h-8 w-8" />} title="YouTube" description="Daily uploads of stream highlights, gameplay, and original content." stats="58+" statsLabel="Subscribers" linkUrl="https://www.youtube.com/@ytflixify" linkText="Subscribe on YouTube" bgColor="bg-red-600" />
               
-              <SocialCard
-                icon={<Twitter className="h-8 w-8" />}
-                title="Twitter"
-                description="Updates, announcements, and hot takes on gaming and life."
-                stats="13+"
-                statsLabel="Followers"
-                linkUrl="https://twitter.com/TheFlixify"
-                linkText="Follow on Twitter"
-                bgColor="bg-blue-500"
-              />
+              <SocialCard icon={<Twitter className="h-8 w-8" />} title="Twitter" description="Updates, announcements, and hot takes on gaming and life." stats="13+" statsLabel="Followers" linkUrl="https://twitter.com/TheFlixify" linkText="Follow on Twitter" bgColor="bg-blue-500" />
               
-              <SocialCard
-                icon={<Instagram className="h-8 w-8" />}
-                title="Instagram"
-                description="Behind-the-scenes content, photos, and daily life updates."
-                stats="460+"
-                statsLabel="Followers"
-                linkUrl="https://www.instagram.com/theflixify/"
-                linkText="Follow on Instagram"
-                bgColor="bg-pink-500"
-              />
+              <SocialCard icon={<Instagram className="h-8 w-8" />} title="Instagram" description="Behind-the-scenes content, photos, and daily life updates." stats="460+" statsLabel="Followers" linkUrl="https://www.instagram.com/theflixify/" linkText="Follow on Instagram" bgColor="bg-pink-500" />
             </div>
           </div>
         </section>
@@ -99,24 +61,12 @@ const Index = () => {
               </p>
             </div>
             
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              <StatCard 
-                icon={<Users className="h-8 w-8" />}
-                value="564+"
-                label="Total Followers"
-              />
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              <StatCard icon={<Users className="h-8 w-8" />} value="564+" label="Total Followers" />
               
-              <StatCard 
-                icon={<Eye className="h-8 w-8" />}
-                value="61K+"
-                label="Content Views"
-              />
+              <StatCard icon={<Eye className="h-8 w-8" />} value="61K+" label="Content Views" />
               
-              <StatCard 
-                icon={<Heart className="h-8 w-8" />}
-                value="3+"
-                label="Discord Members"
-              />
+              <StatCard icon={<Heart className="h-8 w-8" />} value="3+" label="Discord Members" />
             </div>
             
             <div className="mt-16 text-center">
@@ -163,11 +113,7 @@ const Index = () => {
               </div>
               
               <div className="rounded-xl overflow-hidden">
-                <img 
-                  src="https://placehold.co/600x400/23232B/FFFFFF?text=Flixify" 
-                  alt="Flixify" 
-                  className="w-full h-full object-cover"
-                />
+                <img src="https://placehold.co/600x400/23232B/FFFFFF?text=Flixify" alt="Flixify" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
@@ -197,8 +143,6 @@ const Index = () => {
       </main>
       
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
