@@ -93,22 +93,22 @@ const Index = () => {
                   gameplay, commentary, and real-life content.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <a variant="outline" className="gap-2">
+                  <Button><a variant="outline" className="gap-2">
                     <Twitch className="h-4 w-4" />
                     Twitch
-                  </a>
-                  <a variant="outline" className="gap-2">
+                  </a></Button>
+                  <Button><a variant="outline" className="gap-2">
                     <Youtube className="h-4 w-4" />
                     YouTube
-                  </a>
-                  <a variant="outline" className="gap-2">
+                  </a></Button>
+                  <Button><a variant="outline" className="gap-2">
                     <Twitter className="h-4 w-4" />
                     Twitter
-                  </a>
-                  <a variant="outline" className="gap-2">
+                  </a></Button>
+                  <Button><a variant="outline" className="gap-2">
                     <Instagram className="h-4 w-4" />
                     Instagram
-                  </a>
+                  </a></Button>
                 </div>
               </div>
               
