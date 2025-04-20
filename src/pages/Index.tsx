@@ -85,12 +85,7 @@ const Index = () => {
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">ABOUT FLIXIFY</h2>
                 <p className="text-muted-foreground mb-6">
-                  Flixify is one of gaming's most recognizable personalities. As a member of 100 Thieves, 
-                  Flixify has built a dedicated community across Twitch, YouTube, and other social platforms.
-                </p>
-                <p className="text-muted-foreground mb-6">
-                  Known for high-energy content and competitive gameplay, Flixify continues to entertain millions with 
-                  gameplay, commentary, and real-life content.
+                  Flixify is a 20 year old Content Creator, You will find a lot of his videos and clips from his streams on YouTube, TikTok, and Twitter/X.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a target="_blank" href="https://www.twitch.tv/ttvflixify">
@@ -117,7 +112,7 @@ const Index = () => {
               </div>
               
               <div className="rounded-xl overflow-hidden">
-                <img src="https://placehold.co/600x400/23232B/FFFFFF?text=Flixify" alt="Flixify" className="w-full h-full object-cover" />
+                <img src="https://i.ibb.co/cSVMqk9V/Flixify-PFP.png" alt="Flixify" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
