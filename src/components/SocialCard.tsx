@@ -30,7 +30,7 @@ const SocialCard = ({
       <div className="absolute inset-0 card-gradient"></div>
       
       <div className="relative p-6 flex flex-col h-full min-h-[320px]">
-        <div className="mb-4 text-primary">{icon}</div>
+        <div style="color: #00517c;" className="mb-4 text-primary">{icon}</div>
         <h3 className="text-xl font-bold mb-2">{title}</h3>
         <p className="text-muted-foreground mb-6">{description}</p>
         
