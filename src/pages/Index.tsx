@@ -20,7 +20,7 @@ const Index = () => {
                 Join the community of gamers, creators, and fans built around positivity and fun.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" className="gap-2">
+                <Button size="lg" className="gap-2 text-base bg-[00517c] bg-[#00517c]">
                   <Twitch className="h-5 w-5" />
                   Watch Live
                 </Button>
