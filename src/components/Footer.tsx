@@ -9,22 +9,22 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold mb-6 text-gradient">FLIXIFY</h3>
             <p className="text-muted-foreground">
-              Part of the 100 Thieves family. Content creator, streamer, and gaming enthusiast.
+              Content creator, streamer, and gaming enthusiast.
             </p>
             <div className="flex space-x-4 mt-6">
-              <a href="https://twitter.com/CouRageJD" target="_blank" rel="noopener noreferrer" 
+              <a href="https://twitter.com/TheFlixify" target="_blank" rel="noopener noreferrer" 
                 className="text-muted-foreground hover:text-primary transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="https://www.instagram.com/couragejd/" target="_blank" rel="noopener noreferrer" 
+              <a href="https://www.instagram.com/TheFlixify/" target="_blank" rel="noopener noreferrer" 
                 className="text-muted-foreground hover:text-primary transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="https://www.youtube.com/channel/UCrgTEmBuoObZiEXvZ6q3JAw" target="_blank" rel="noopener noreferrer" 
+              <a href="https://www.youtube.com/@YTFlixify" target="_blank" rel="noopener noreferrer" 
                 className="text-muted-foreground hover:text-primary transition-colors">
                 <Youtube className="h-5 w-5" />
               </a>
-              <a href="https://www.twitch.tv/couragejd" target="_blank" rel="noopener noreferrer" 
+              <a href="https://www.twitch.tv/TTVFlixify" target="_blank" rel="noopener noreferrer" 
                 className="text-muted-foreground hover:text-primary transition-colors">
                 <Twitch className="h-5 w-5" />
               </a>
@@ -43,8 +43,7 @@ const Footer = () => {
           <div>
             <h4 className="font-bold uppercase mb-6">Contact</h4>
             <ul className="space-y-3">
-              <li><a href="mailto:business@courage.gg" className="text-muted-foreground hover:text-primary transition-colors">Business Inquiries</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Support</a></li>
+              <li><a href="mailto:business.flixify@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">Business Inquiries</a></li>
             </ul>
           </div>
         </div>
