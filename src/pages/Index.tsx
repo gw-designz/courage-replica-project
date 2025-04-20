@@ -93,22 +93,26 @@ const Index = () => {
                   gameplay, commentary, and real-life content.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <Button><a variant="outline" className="gap-2">
+                  <a href="https://sentry.io/answers/">
+                  <Button variant="outline" className="gap-2">
                     <Twitch className="h-4 w-4" />
                     Twitch
-                  </a></Button>
-                  <Button><a variant="outline" className="gap-2">
+                  </Button></a>
+                  <a href="https://sentry.io/answers/">
+                  <Button variant="outline" className="gap-2">
                     <Youtube className="h-4 w-4" />
                     YouTube
-                  </a></Button>
-                  <Button><a variant="outline" className="gap-2">
+                  </Button></a>
+                  <a href="https://sentry.io/answers/">
+                  <Button variant="outline" className="gap-2">
                     <Twitter className="h-4 w-4" />
                     Twitter
-                  </a></Button>
-                  <Button><a variant="outline" className="gap-2">
+                  </Button></a>
+                  <a href="https://sentry.io/answers/">
+                  <Button variant="outline" className="gap-2">
                     <Instagram className="h-4 w-4" />
                     Instagram
-                  </a></Button>
+                  </Button></a>
                 </div>
               </div>
               
