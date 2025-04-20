@@ -132,14 +132,16 @@ const Index = () => {
                 Be part of a welcoming community of gamers, content creators, and fans. Follow, subscribe, and stay connected.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a target="_blank" href="https://www.twitch.tv/ttvflixify">
                 <Button size="lg" className="gap-2">
                   <Twitch className="h-5 w-5" />
                   Watch Live
-                </Button>
+                </Button></a>
+                <a target="_blank" href="https://www.youtube.com/@YTFlixify">
                 <Button size="lg" variant="outline" className="gap-2">
                   <Youtube className="h-5 w-5" />
                   Subscribe
-                </Button>
+                </Button></a>
               </div>
             </div>
           </div>
