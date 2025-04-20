@@ -70,7 +70,7 @@ const Index = () => {
             </div>
             
             <div className="mt-16 text-center">
-              <Button variant="outline" size="lg" href="https://discord.gg/fDHHRgezst" className="gap-2">
+              <Button variant="outline" size="lg" onclick="location.href='https://discord.gg/fDHHRgezst'" className="gap-2">
                 Join Discord
                 <ArrowRight className="h-4 w-4" />
               </Button>
