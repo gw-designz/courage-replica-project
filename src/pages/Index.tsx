@@ -93,22 +93,22 @@ const Index = () => {
                   gameplay, commentary, and real-life content.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <a href="https://sentry.io/answers/">
+                  <a target="_blank" href="https://www.twitch.tv/ttvflixify">
                   <Button variant="outline" className="gap-2">
                     <Twitch className="h-4 w-4" />
                     Twitch
                   </Button></a>
-                  <a href="https://sentry.io/answers/">
+                  <a target="_blank" href="https://youtube.com/@YTFlixify">
                   <Button variant="outline" className="gap-2">
                     <Youtube className="h-4 w-4" />
                     YouTube
                   </Button></a>
-                  <a href="https://sentry.io/answers/">
+                  <a target="_blank" href="https://x.com/TheFlixify">
                   <Button variant="outline" className="gap-2">
                     <Twitter className="h-4 w-4" />
                     Twitter
                   </Button></a>
-                  <a href="https://sentry.io/answers/">
+                  <a target="_blank" href="https://instagram.com/TheFlixify">
                   <Button variant="outline" className="gap-2">
                     <Instagram className="h-4 w-4" />
                     Instagram
