@@ -22,12 +22,12 @@ const Header = () => {
           </div>
 
           <div className="hidden md:flex items-center gap-4">
-            <a href="https://www.twitch.tv/couragejd" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.twitch.tv/TTVFlixify" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="icon" className="rounded-full hover:bg-primary/20 hover:text-primary">
                 <Twitch className="h-5 w-5" />
               </Button>
             </a>
-            <a href="https://www.youtube.com/channel/UCrgTEmBuoObZiEXvZ6q3JAw" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.youtube.com/@YTFlixify" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="icon" className="rounded-full hover:bg-primary/20 hover:text-primary">
                 <Youtube className="h-5 w-5" />
               </Button>
