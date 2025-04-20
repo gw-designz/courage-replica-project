@@ -26,10 +26,6 @@ const Index = () => {
                   <Twitch className="h-5 w-5" />
                   Watch Live
                 </Button>
-                <Button size="lg" variant="outline" className="gap-2">
-                  <ShoppingBag className="h-5 w-5" />
-                  Shop Merch
-                </Button>
               </div>
             </div>
           </div>
