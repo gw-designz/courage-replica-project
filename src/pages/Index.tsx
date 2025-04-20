@@ -46,9 +46,9 @@ const Index = () => {
                 icon={<Twitch className="h-8 w-8" />}
                 title="Twitch"
                 description="Live streams multiple times a week. Gaming, reactions, and more."
-                stats="2.1M+"
+                stats="2+"
                 statsLabel="Followers"
-                linkUrl="https://www.twitch.tv/flixify"
+                linkUrl="https://www.twitch.tv/ttvflixify"
                 linkText="Follow on Twitch"
                 bgColor="bg-purple-600"
               />
@@ -57,9 +57,9 @@ const Index = () => {
                 icon={<Youtube className="h-8 w-8" />}
                 title="YouTube"
                 description="Daily uploads of stream highlights, gameplay, and original content."
-                stats="3.6M+"
+                stats="58+"
                 statsLabel="Subscribers"
-                linkUrl="https://www.youtube.com/flixify"
+                linkUrl="https://www.youtube.com/@ytflixify"
                 linkText="Subscribe on YouTube"
                 bgColor="bg-red-600"
               />
@@ -68,7 +68,7 @@ const Index = () => {
                 icon={<Twitter className="h-8 w-8" />}
                 title="Twitter"
                 description="Updates, announcements, and hot takes on gaming and life."
-                stats="2.4M+"
+                stats="13+"
                 statsLabel="Followers"
                 linkUrl="https://twitter.com/Flixify"
                 linkText="Follow on Twitter"
@@ -79,7 +79,7 @@ const Index = () => {
                 icon={<Instagram className="h-8 w-8" />}
                 title="Instagram"
                 description="Behind-the-scenes content, photos, and daily life updates."
-                stats="1.2M+"
+                stats="460+"
                 statsLabel="Followers"
                 linkUrl="https://www.instagram.com/flixify/"
                 linkText="Follow on Instagram"
