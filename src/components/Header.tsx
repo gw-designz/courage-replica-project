@@ -2,16 +2,12 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X, ShoppingBag, Twitch, Youtube } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-
-  return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
+  return <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 md:px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-8">
@@ -37,10 +33,7 @@ const Header = () => {
               </Button>
             </a>
             <a href="https://courage.gg/collections/all" target="_blank" rel="noopener noreferrer">
-              <Button variant="outline" className="gap-2">
-                <ShoppingBag className="h-4 w-4" />
-                SHOP
-              </Button>
+              
             </a>
           </div>
 
@@ -51,8 +44,7 @@ const Header = () => {
       </div>
 
       {/* Mobile Menu */}
-      {isMenuOpen && (
-        <div className="fixed inset-0 z-50 bg-background flex flex-col">
+      {isMenuOpen && <div className="fixed inset-0 z-50 bg-background flex flex-col">
           <div className="container mx-auto px-4 py-4 flex justify-between items-center border-b border-border">
             <Link to="/" className="text-2xl font-bold text-gradient">FLIXIFY</Link>
             <Button variant="ghost" size="icon" onClick={toggleMenu}>
@@ -85,10 +77,7 @@ const Header = () => {
               </Button>
             </a>
           </div>
-        </div>
-      )}
-    </header>
-  );
+        </div>}
+    </header>;
 };
-
 export default Header;
