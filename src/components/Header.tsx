@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X, ShoppingBag, Twitch, Youtube } from 'lucide-react';
@@ -16,7 +15,7 @@ const Header = () => {
       <div className="container mx-auto px-4 md:px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-8">
-            <Link to="/" className="text-2xl font-bold text-gradient">COURAGE</Link>
+            <Link to="/" className="text-2xl font-bold text-gradient">FLIXIFY</Link>
             
             <nav className="hidden md:flex items-center gap-6">
               <Link to="/" className="text-sm font-medium hover:text-primary transition-colors">HOME</Link>
@@ -55,7 +54,7 @@ const Header = () => {
       {isMenuOpen && (
         <div className="fixed inset-0 z-50 bg-background flex flex-col">
           <div className="container mx-auto px-4 py-4 flex justify-between items-center border-b border-border">
-            <Link to="/" className="text-2xl font-bold text-gradient">COURAGE</Link>
+            <Link to="/" className="text-2xl font-bold text-gradient">FLIXIFY</Link>
             <Button variant="ghost" size="icon" onClick={toggleMenu}>
               <X className="h-6 w-6" />
             </Button>

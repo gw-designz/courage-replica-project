@@ -16,7 +16,7 @@ const Index = () => {
           <div className="container mx-auto px-4 md:px-6">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-6xl font-extrabold mb-6">
-                <span className="text-gradient">COURAGE</span> GAMING COMMUNITY
+                <span className="text-gradient">FLIXIFY</span> GAMING COMMUNITY
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-8">
                 Join the community of gamers, creators, and fans built around positivity and fun.
@@ -41,7 +41,7 @@ const Index = () => {
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">CONTENT PLATFORMS</h2>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Follow Courage across all platforms for streams, videos, updates, and more.
+                Follow Flixify across all platforms for streams, videos, updates, and more.
               </p>
             </div>
             
@@ -52,7 +52,7 @@ const Index = () => {
                 description="Live streams multiple times a week. Gaming, reactions, and more."
                 stats="2.1M+"
                 statsLabel="Followers"
-                linkUrl="https://www.twitch.tv/couragejd"
+                linkUrl="https://www.twitch.tv/flixify"
                 linkText="Follow on Twitch"
                 bgColor="bg-purple-600"
               />
@@ -63,7 +63,7 @@ const Index = () => {
                 description="Daily uploads of stream highlights, gameplay, and original content."
                 stats="3.6M+"
                 statsLabel="Subscribers"
-                linkUrl="https://www.youtube.com/channel/UCrgTEmBuoObZiEXvZ6q3JAw"
+                linkUrl="https://www.youtube.com/flixify"
                 linkText="Subscribe on YouTube"
                 bgColor="bg-red-600"
               />
@@ -74,7 +74,7 @@ const Index = () => {
                 description="Updates, announcements, and hot takes on gaming and life."
                 stats="2.4M+"
                 statsLabel="Followers"
-                linkUrl="https://twitter.com/CouRageJD"
+                linkUrl="https://twitter.com/Flixify"
                 linkText="Follow on Twitter"
                 bgColor="bg-blue-500"
               />
@@ -85,7 +85,7 @@ const Index = () => {
                 description="Behind-the-scenes content, photos, and daily life updates."
                 stats="1.2M+"
                 statsLabel="Followers"
-                linkUrl="https://www.instagram.com/couragejd/"
+                linkUrl="https://www.instagram.com/flixify/"
                 linkText="Follow on Instagram"
                 bgColor="bg-pink-500"
               />
@@ -143,13 +143,13 @@ const Index = () => {
           <div className="container mx-auto px-4 md:px-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl md:text-4xl font-bold mb-6">ABOUT COURAGE</h2>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6">ABOUT FLIXIFY</h2>
                 <p className="text-muted-foreground mb-6">
-                  Jack "CouRage" Dunlop is one of gaming's most recognizable personalities. As a member of 100 Thieves, 
-                  CouRage has built a dedicated community across Twitch, YouTube, and other social platforms.
+                  Flixify is one of gaming's most recognizable personalities. As a member of 100 Thieves, 
+                  Flixify has built a dedicated community across Twitch, YouTube, and other social platforms.
                 </p>
                 <p className="text-muted-foreground mb-6">
-                  Known for high-energy content and competitive gameplay, CouRage continues to entertain millions with 
+                  Known for high-energy content and competitive gameplay, Flixify continues to entertain millions with 
                   gameplay, commentary, and real-life content.
                 </p>
                 <div className="flex flex-wrap gap-4">
@@ -174,8 +174,8 @@ const Index = () => {
               
               <div className="rounded-xl overflow-hidden">
                 <img 
-                  src="https://placehold.co/600x400/23232B/FFFFFF?text=Courage" 
-                  alt="Courage" 
+                  src="https://placehold.co/600x400/23232B/FFFFFF?text=Flixify" 
+                  alt="Flixify" 
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -187,7 +187,7 @@ const Index = () => {
         <section className="py-20 relative overflow-hidden hero-gradient">
           <div className="container mx-auto px-4 md:px-6 relative z-10">
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">JOIN THE COURAGE FAMILY</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">JOIN THE FLIXIFY FAMILY</h2>
               <p className="text-xl text-muted-foreground mb-8">
                 Be part of a welcoming community of gamers, content creators, and fans. Follow, subscribe, and stay connected.
               </p>

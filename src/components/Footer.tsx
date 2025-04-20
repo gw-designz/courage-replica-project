@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import { Twitter, Instagram, Youtube, Twitch } from 'lucide-react';
 
@@ -8,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <h3 className="text-2xl font-bold mb-6 text-gradient">COURAGE</h3>
+            <h3 className="text-2xl font-bold mb-6 text-gradient">FLIXIFY</h3>
             <p className="text-muted-foreground">
               Part of the 100 Thieves family. Content creator, streamer, and gaming enthusiast.
             </p>
@@ -52,7 +51,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-muted-foreground">© 2023 Courage. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">© 2023 Flixify. All rights reserved.</p>
           <div className="flex space-x-8">
             <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">Privacy Policy</a>
             <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">Terms of Service</a>
