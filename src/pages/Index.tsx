@@ -95,38 +95,32 @@ const Index = () => {
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">OUR COMMUNITY</h2>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Join thousands of fans who make up the Courage community across multiple platforms.
+                Join thousands of fans who make up the Flixify community across multiple platforms.
               </p>
             </div>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               <StatCard 
                 icon={<Users className="h-8 w-8" />}
-                value="9.3M+"
+                value="564+"
                 label="Total Followers"
               />
               
               <StatCard 
                 icon={<Eye className="h-8 w-8" />}
-                value="400M+"
+                value="61K+"
                 label="Content Views"
               />
               
               <StatCard 
                 icon={<Heart className="h-8 w-8" />}
-                value="60K+"
+                value="3+"
                 label="Discord Members"
-              />
-              
-              <StatCard 
-                icon={<Trophy className="h-8 w-8" />}
-                value="100+"
-                label="Tournament Wins"
               />
             </div>
             
             <div className="mt-16 text-center">
-              <Button variant="outline" size="lg" className="gap-2">
+              <Button variant="outline" size="lg" href="https://discord.gg/fDHHRgezst" className="gap-2">
                 Join Discord
                 <ArrowRight className="h-4 w-4" />
               </Button>
