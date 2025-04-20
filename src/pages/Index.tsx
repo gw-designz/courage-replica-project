@@ -70,7 +70,7 @@ const Index = () => {
                 description="Updates, announcements, and hot takes on gaming and life."
                 stats="13+"
                 statsLabel="Followers"
-                linkUrl="https://twitter.com/Flixify"
+                linkUrl="https://twitter.com/TheFlixify"
                 linkText="Follow on Twitter"
                 bgColor="bg-blue-500"
               />
@@ -81,7 +81,7 @@ const Index = () => {
                 description="Behind-the-scenes content, photos, and daily life updates."
                 stats="460+"
                 statsLabel="Followers"
-                linkUrl="https://www.instagram.com/flixify/"
+                linkUrl="https://www.instagram.com/theflixify/"
                 linkText="Follow on Instagram"
                 bgColor="bg-pink-500"
               />
