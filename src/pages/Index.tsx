@@ -1,12 +1,265 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import SocialCard from "@/components/SocialCard";
+import ProductCard from "@/components/ProductCard";
+import StatCard from "@/components/StatCard";
+import { Button } from "@/components/ui/button";
+import { Twitch, Youtube, Twitter, Instagram, Users, Eye, Heart, Trophy, ArrowRight, ShoppingBag } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      
+      <main className="flex-grow pt-24">
+        {/* Hero Section */}
+        <section className="hero-gradient py-20 md:py-32">
+          <div className="container mx-auto px-4 md:px-6">
+            <div className="max-w-4xl mx-auto text-center">
+              <h1 className="text-4xl md:text-6xl font-extrabold mb-6">
+                <span className="text-gradient">COURAGE</span> GAMING COMMUNITY
+              </h1>
+              <p className="text-xl md:text-2xl text-muted-foreground mb-8">
+                Join the community of gamers, creators, and fans built around positivity and fun.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Button size="lg" className="gap-2">
+                  <Twitch className="h-5 w-5" />
+                  Watch Live
+                </Button>
+                <Button size="lg" variant="outline" className="gap-2">
+                  <ShoppingBag className="h-5 w-5" />
+                  Shop Merch
+                </Button>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        {/* Content Platforms Section */}
+        <section className="py-20">
+          <div className="container mx-auto px-4 md:px-6">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">CONTENT PLATFORMS</h2>
+              <p className="text-muted-foreground max-w-2xl mx-auto">
+                Follow Courage across all platforms for streams, videos, updates, and more.
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <SocialCard
+                icon={<Twitch className="h-8 w-8" />}
+                title="Twitch"
+                description="Live streams multiple times a week. Gaming, reactions, and more."
+                stats="2.1M+"
+                statsLabel="Followers"
+                linkUrl="https://www.twitch.tv/couragejd"
+                linkText="Follow on Twitch"
+                bgColor="bg-purple-600"
+              />
+              
+              <SocialCard
+                icon={<Youtube className="h-8 w-8" />}
+                title="YouTube"
+                description="Daily uploads of stream highlights, gameplay, and original content."
+                stats="3.6M+"
+                statsLabel="Subscribers"
+                linkUrl="https://www.youtube.com/channel/UCrgTEmBuoObZiEXvZ6q3JAw"
+                linkText="Subscribe on YouTube"
+                bgColor="bg-red-600"
+              />
+              
+              <SocialCard
+                icon={<Twitter className="h-8 w-8" />}
+                title="Twitter"
+                description="Updates, announcements, and hot takes on gaming and life."
+                stats="2.4M+"
+                statsLabel="Followers"
+                linkUrl="https://twitter.com/CouRageJD"
+                linkText="Follow on Twitter"
+                bgColor="bg-blue-500"
+              />
+              
+              <SocialCard
+                icon={<Instagram className="h-8 w-8" />}
+                title="Instagram"
+                description="Behind-the-scenes content, photos, and daily life updates."
+                stats="1.2M+"
+                statsLabel="Followers"
+                linkUrl="https://www.instagram.com/couragejd/"
+                linkText="Follow on Instagram"
+                bgColor="bg-pink-500"
+              />
+            </div>
+          </div>
+        </section>
+        
+        {/* Community Section */}
+        <section id="community" className="py-20 bg-secondary">
+          <div className="container mx-auto px-4 md:px-6">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">OUR COMMUNITY</h2>
+              <p className="text-muted-foreground max-w-2xl mx-auto">
+                Join thousands of fans who make up the Courage community across multiple platforms.
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              <StatCard 
+                icon={<Users className="h-8 w-8" />}
+                value="9.3M+"
+                label="Total Followers"
+              />
+              
+              <StatCard 
+                icon={<Eye className="h-8 w-8" />}
+                value="400M+"
+                label="Content Views"
+              />
+              
+              <StatCard 
+                icon={<Heart className="h-8 w-8" />}
+                value="60K+"
+                label="Discord Members"
+              />
+              
+              <StatCard 
+                icon={<Trophy className="h-8 w-8" />}
+                value="100+"
+                label="Tournament Wins"
+              />
+            </div>
+            
+            <div className="mt-16 text-center">
+              <Button variant="outline" size="lg" className="gap-2">
+                Join Discord
+                <ArrowRight className="h-4 w-4" />
+              </Button>
+            </div>
+          </div>
+        </section>
+        
+        {/* Merch Section */}
+        <section id="merch" className="py-20">
+          <div className="container mx-auto px-4 md:px-6">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">LATEST MERCH</h2>
+              <p className="text-muted-foreground max-w-2xl mx-auto">
+                Show your support with official Courage merchandise. Quality products with unique designs.
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              <ProductCard
+                image="https://placehold.co/400x400/23232B/FFFFFF?text=Courage+Hoodie"
+                name="Courage Signature Hoodie"
+                price="$59.99"
+                link="https://courage.gg/collections/all"
+              />
+              
+              <ProductCard
+                image="https://placehold.co/400x400/23232B/FFFFFF?text=Courage+T-Shirt"
+                name="Community T-Shirt"
+                price="$29.99"
+                link="https://courage.gg/collections/all"
+              />
+              
+              <ProductCard
+                image="https://placehold.co/400x400/23232B/FFFFFF?text=Courage+Hat"
+                name="Snapback Cap"
+                price="$24.99"
+                link="https://courage.gg/collections/all"
+              />
+              
+              <ProductCard
+                image="https://placehold.co/400x400/23232B/FFFFFF?text=Courage+Mug"
+                name="Limited Edition Mug"
+                price="$19.99"
+                link="https://courage.gg/collections/all"
+              />
+            </div>
+            
+            <div className="mt-16 text-center">
+              <a href="https://courage.gg/collections/all" target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="gap-2">
+                  <ShoppingBag className="h-5 w-5" />
+                  Shop All Merch
+                </Button>
+              </a>
+            </div>
+          </div>
+        </section>
+        
+        {/* About Section */}
+        <section id="about" className="py-20 bg-secondary">
+          <div className="container mx-auto px-4 md:px-6">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6">ABOUT COURAGE</h2>
+                <p className="text-muted-foreground mb-6">
+                  Jack "CouRage" Dunlop is one of gaming's most recognizable personalities. As a member of 100 Thieves, 
+                  CouRage has built a dedicated community across Twitch, YouTube, and other social platforms.
+                </p>
+                <p className="text-muted-foreground mb-6">
+                  Known for high-energy content and competitive gameplay, CouRage continues to entertain millions with 
+                  gameplay, commentary, and real-life content.
+                </p>
+                <div className="flex flex-wrap gap-4">
+                  <Button variant="outline" className="gap-2">
+                    <Twitch className="h-4 w-4" />
+                    Twitch
+                  </Button>
+                  <Button variant="outline" className="gap-2">
+                    <Youtube className="h-4 w-4" />
+                    YouTube
+                  </Button>
+                  <Button variant="outline" className="gap-2">
+                    <Twitter className="h-4 w-4" />
+                    Twitter
+                  </Button>
+                  <Button variant="outline" className="gap-2">
+                    <Instagram className="h-4 w-4" />
+                    Instagram
+                  </Button>
+                </div>
+              </div>
+              
+              <div className="rounded-xl overflow-hidden">
+                <img 
+                  src="https://placehold.co/600x400/23232B/FFFFFF?text=Courage" 
+                  alt="Courage" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        {/* CTA Section */}
+        <section className="py-20 relative overflow-hidden hero-gradient">
+          <div className="container mx-auto px-4 md:px-6 relative z-10">
+            <div className="max-w-3xl mx-auto text-center">
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">JOIN THE COURAGE FAMILY</h2>
+              <p className="text-xl text-muted-foreground mb-8">
+                Be part of a welcoming community of gamers, content creators, and fans. Follow, subscribe, and stay connected.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Button size="lg" className="gap-2">
+                  <Twitch className="h-5 w-5" />
+                  Watch Live
+                </Button>
+                <Button size="lg" variant="outline" className="gap-2">
+                  <Youtube className="h-5 w-5" />
+                  Subscribe
+                </Button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      
+      <Footer />
     </div>
   );
 };
