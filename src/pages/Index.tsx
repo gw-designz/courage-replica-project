@@ -1,8 +1,6 @@
-
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SocialCard from "@/components/SocialCard";
-import ProductCard from "@/components/ProductCard";
 import StatCard from "@/components/StatCard";
 import { Button } from "@/components/ui/button";
 import { Twitch, Youtube, Twitter, Instagram, Users, Eye, Heart, Trophy, ArrowRight, ShoppingBag } from "lucide-react";
@@ -136,57 +134,6 @@ const Index = () => {
                 Join Discord
                 <ArrowRight className="h-4 w-4" />
               </Button>
-            </div>
-          </div>
-        </section>
-        
-        {/* Merch Section */}
-        <section id="merch" className="py-20">
-          <div className="container mx-auto px-4 md:px-6">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">LATEST MERCH</h2>
-              <p className="text-muted-foreground max-w-2xl mx-auto">
-                Show your support with official Courage merchandise. Quality products with unique designs.
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              <ProductCard
-                image="https://placehold.co/400x400/23232B/FFFFFF?text=Courage+Hoodie"
-                name="Courage Signature Hoodie"
-                price="$59.99"
-                link="https://courage.gg/collections/all"
-              />
-              
-              <ProductCard
-                image="https://placehold.co/400x400/23232B/FFFFFF?text=Courage+T-Shirt"
-                name="Community T-Shirt"
-                price="$29.99"
-                link="https://courage.gg/collections/all"
-              />
-              
-              <ProductCard
-                image="https://placehold.co/400x400/23232B/FFFFFF?text=Courage+Hat"
-                name="Snapback Cap"
-                price="$24.99"
-                link="https://courage.gg/collections/all"
-              />
-              
-              <ProductCard
-                image="https://placehold.co/400x400/23232B/FFFFFF?text=Courage+Mug"
-                name="Limited Edition Mug"
-                price="$19.99"
-                link="https://courage.gg/collections/all"
-              />
-            </div>
-            
-            <div className="mt-16 text-center">
-              <a href="https://courage.gg/collections/all" target="_blank" rel="noopener noreferrer">
-                <Button size="lg" className="gap-2">
-                  <ShoppingBag className="h-5 w-5" />
-                  Shop All Merch
-                </Button>
-              </a>
             </div>
           </div>
         </section>
